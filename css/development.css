@@ -1,0 +1,36 @@
+/*---------tab切换---------*/
+.content{
+	width: 100%;
+}
+.left_tab{ 
+	width: 60%;
+	padding: 0px 20%;
+}
+.news-box
+{
+	padding: 10px 0px;
+}
+.news-box img
+{
+	width: 120px; 
+	float: left;
+	padding-right: 20px;
+}
+.rightpadding
+{
+	float: right;
+	margin-top: -30px;
+}
+.news-box img
+{
+	height: 80px;
+	width: 120px;
+}
+.msg
+{
+	padding: 10px 0px;
+	height: 60px;
+	line-height: 15px;
+	overflow: hidden; /*超出隐藏*/
+	text-overflow: ellipsis; /*//省略号*/
+}

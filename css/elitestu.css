@@ -1,0 +1,52 @@
+.elitestu
+{
+	padding-bottom: 0px;
+	width: 100%;
+	height: auto; 		
+	border-bottom: 1px solid #CCCCCC;
+	display: inline-block;
+}
+.elitestu p
+{
+	padding: 0px 10px;
+	margin-left: 10px;
+	clear: right;
+}
+.elitestu2
+{
+	padding-bottom: 0px;
+	width: 100%;
+	height: auto; 		
+	border-bottom: 1px solid #CCCCCC;
+	display: inline-block;
+}
+.elitestu2 p
+{
+	padding: 10px 10px;
+	margin-left: 10px;
+	clear: right;
+}
+.elitestu p span
+{
+	margin-left: 10px;
+	display: block;
+	padding: 10px 0px;
+}
+.elitestu p span font
+{
+	font-size: 14px;
+	font-weight: 800;
+	font-family: "微软雅黑";
+}
+.elitestu2 p font
+{
+	font-size: 14px;
+	font-weight: 800;
+	font-family: "微软雅黑";
+}
+.elitestu img
+{
+	width: 200px;
+	float: left;
+	padding: 25px 20px 10px 20px;
+}

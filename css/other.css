@@ -1,0 +1,136 @@
+@charset "utf-8";
+.kefuSystem {
+	position: fixed;
+	left: 0;
+	bottom: 100px;
+	z-index: 600;
+	width: 35px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.kefu-title {
+	width: 25px;
+	height: 150px;
+	cursor: pointer;
+	position: absolute;
+	right: 0;
+	z-index: 600;
+	display: none;
+}
+
+.kefu-content{
+	position: relative;
+	z-index: 600;
+}
+
+.kefu-content ul li {
+	background: #008cd6;
+	border-bottom: 1px solid #fff;
+	text-align: center;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.kefu-content ul li:hover {
+	background: #0a2d6b;
+}
+
+.kefu-content ul li:first-child {
+	border-radius: 0px 9px 9px 0px;
+}
+
+.kefu-content ul li .hideDiv {
+	position: absolute;
+	left: 35px;
+	z-index: 600;
+	background: #145070;
+	height: auto;
+	width: auto;
+	min-width: 300px;
+	min-height: 45px;
+	display: none;
+	bottom:5%;
+	border-radius: 6px;
+}
+.mClassTitle {
+	top:20px;
+	color: #0a2d6b;
+	font-size: 16px;
+	font-weight: bold;
+	width: 100%;
+	text-align: left;
+	padding: 13px 30px;
+	border-bottom: solid 1px #E5E5E5;
+}
+.mClassTitle a:hover{color: #000;}
+.mClassTitle:hover{
+	font-weight: bold;
+	box-shadow: 0px 1px 1px #FCFCFC;
+	transition:all ease 0.3s;
+	background-color: #E5E5E5;
+	padding: 15px;
+}
+.kefu-content ul li .with3 {
+	position: absolute;
+	left: 65px;
+	z-index: 600;
+	background: #145070;
+	height: auto;
+	width: 280px;
+	min-width: 140px;
+	min-height: 45px;
+	display: none;
+	top: -75px;
+}
+.liveimg
+{
+	width: 120px;
+}
+.ewmmeiyu
+{
+	background-color: #0a2d6b;
+	color: #fff;
+	font-weight: 600;
+	padding: 10px;
+	float: left;
+}
+.telClass {
+	padding: 15px;
+}
+
+.telClass span {
+	font-size: 14px;
+	color: #fff;
+	text-align: right;
+}
+
+.telClass span i {
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.ewmClass {
+	box-shadow: 5px 5px 5px #0a2d6b;
+	overflow: hidden;
+}
+
+.messageClass {
+	box-shadow: 1px 1px 1px 2px #0a2d6b;
+	height: auto;
+	overflow: hidden;
+}
+
+.messageClass .messageClassArea {
+	background: #fff;
+	width: 300px;
+	z-index: 999;
+}
+.with3
+{
+	text-align: center;
+	position: fixed;
+	bottom: 10px;
+	right: 0px;
+	z-index: 999;
+}
